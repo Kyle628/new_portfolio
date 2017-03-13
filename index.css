@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    height: 90px;
+}
+
+#header-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    background-color: green;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    height: 60px;
+    width: 150px;
+    background-color: yellow;
+    margin: 15px 0px 10px 20px;
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+#banner-wrapper {
+    width: 100%;
+    background-color: yellow;
+}
+
+#banner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+.one-third {
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+}
+
+.one-third h2 {
+    font-size: 500%;
+}
+
+#about {
+    background-color: green;
+}
+
+#contact {
+    background-color: orange;
+}
+
+#projects {
+    background-color: blue;
+}
+
+#shredjournal {
+    float: left;
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.one-half img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.one-half h3 {
+    font-size: 300%;
+}
+
+.one-half p {
+    font-size: 200%;
+}
+
+#shred_icon {
+    background-color: yellow;
+}
+
+#shred_description {
+    background-color: blue
+}
