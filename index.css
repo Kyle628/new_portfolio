@@ -1,7 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    color: #f5f5f5;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 body {
@@ -10,14 +14,20 @@ body {
 
 header {
     width: 100%;
-    background-color: blue;
+    background-color: #77c9d4;
     height: 90px;
+    font-size: 200%;
+}
+
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
 }
 
 #header-wrapper {
     width: 100%;
     max-width: 1200px;
-    background-color: green;
+    background-color: #77c9d4;
     height: 90px;
     margin: 0 auto;
 }
@@ -45,9 +55,16 @@ header ul li a {
     text-decoration: none;
 }
 
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(img/nav.png) center;
+}
+
 #banner-wrapper {
     width: 100%;
-    background-color: yellow;
+    background-color: #77c9d4;
 }
 
 #banner {
@@ -66,27 +83,44 @@ header ul li a {
     width: 33.3333333%;
     float: left;
     text-align: center;
+    text-decoration: none;
 }
 
 .one-third h2 {
-    font-size: 500%;
+    font-size: 250%;
+    padding-top: 30px;
 }
 
+.one-third i {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 250%;
+    color: white;
+}
+
+
 #about {
-    background-color: green;
+    background-color: #015249;
 }
 
 #contact {
-    background-color: orange;
+    background-color: #f9db6d;
 }
 
 #projects {
-    background-color: blue;
+    background-color: #57bc90;
 }
 
 #shredjournal {
     float: left;
     width: 100%;
+    background-color: #b4d8c0;
+}
+
+#gorilla {
+    float: left;
+    width: 100%;
+    background-color: #b4d8c0;
 }
 
 .one-half {
@@ -107,13 +141,177 @@ header ul li a {
 }
 
 .one-half p {
+    font-size: 150%;
+}
+
+
+#shred_description {
+    background-color: #57bc90;
+}
+
+#shred_description h3 {
+    margin-top: 20px;
+}
+
+#shred_description p {
+    margin-bottom: 20px;
+}
+
+
+#gorilla_description {
+    background-color: #f9db6d;
+}
+
+#gorilla_description p {
+    margin-bottom: 20px;
+}
+
+#gorilla_description h3 {
+    margin-top: 20px;
+}
+
+#more-projects {
+    background-color: #b4d8c0;
+    width: 100%;
+    float: left;
+}
+
+#view-more {
+    background-color: #015249;
+}
+
+#view-more h3 {
+    margin-top: 20px;
+}
+
+
+#more-projects h1 {
     font-size: 200%;
 }
 
-#shred_icon {
-    background-color: yellow;
+#github {
+    font-size: 900%;
 }
 
-#shred_description {
-    background-color: blue
+#arrow {
+    font-size: 700%;
+}
+
+#blue-bar {
+    width: 100%;
+    height: 80px;
+    background-color: #015249;
+    clear: both;
+}
+
+#social {
+    width: 100%;
+    background-color: #77c9d4;
+}
+
+#social-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+#social-list li {
+    display: inline;
+}
+
+#social-list i {
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+}
+
+i:hover {
+    color: #e3e3e3;
+}
+
+footer {
+    background-color: #b56357;
+    text-align: center;
+    margin: 0;
+    font-size: 100%;
+    max-height: 150px;
+}
+
+#envelope {
+    font-size: 500%;
+}
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 120%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    header {
+        position: absolute;
+    }
+
+    #logo {
+        margin: 15px 0 20px -25px;
+        background: url(img/RD_mobile.png) no-repeat center;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+
+
+    nav ul, navactive ul {
+            display: none;
+            z-index: 1000;
+            position: absolute;
+            padding: 20px;
+            background-color: #6991ac;
+            right: 20px;
+            top: 20px;
+            border: 1px solid #FFF;
+            border-radius: 2px 0 2px 2px;
+            width: 25%;
+        }
+
+        nav:hover ul {
+            display: block;
+        }
+
+        nav li {
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        #banner {
+            padding-top: 90px;
+        }
+
+        .one-third {
+            font-size: 75%;
+            margin-bottom: -2px;
+        }
+
+        .one-half {
+            font-size: 65%;
+            margin-bottom: -2px;
+        }
+
+        #social {
+            font-size: 45%;
+        }
+
+        footer {
+            font-size: 50%;
+        }
+
 }
