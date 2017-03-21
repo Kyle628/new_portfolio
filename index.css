@@ -19,6 +19,10 @@ header {
     font-size: 200%;
 }
 
+header a:hover {
+    color: #e3e3e3;
+}
+
 nav {
     float: right;
     padding: 25px 20px 0 0;
@@ -34,10 +38,10 @@ nav {
 
 #logo {
     float: left;
-    height: 60px;
-    width: 150px;
-    background-color: yellow;
-    margin: 15px 0px 10px 20px;
+    height: 90px;
+    width: 180px;
+    background: url(img/kjo_logo_large.svg) no-repeat center;
+    margin: 30px 0px 10px 40px;
 }
 
 header ul {
@@ -84,11 +88,13 @@ header ul li a {
     float: left;
     text-align: center;
     text-decoration: none;
+
 }
 
 .one-third h2 {
     font-size: 250%;
     padding-top: 30px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .one-third i {
@@ -138,10 +144,16 @@ header ul li a {
 
 .one-half h3 {
     font-size: 300%;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .one-half p {
     font-size: 150%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 
@@ -153,6 +165,10 @@ header ul li a {
     margin-top: 20px;
 }
 
+#shred_icon h3 {
+    margin-top: 20px;
+}
+
 #shred_description p {
     margin-bottom: 20px;
 }
@@ -161,6 +177,8 @@ header ul li a {
 #gorilla_description {
     background-color: #f9db6d;
 }
+
+
 
 #gorilla_description p {
     margin-bottom: 20px;
@@ -187,6 +205,7 @@ header ul li a {
 
 #more-projects h1 {
     font-size: 200%;
+    text-shadow: 1px 1px 2px black;
 }
 
 #github {
@@ -247,7 +266,7 @@ footer {
     }
 
     h3 {
-        font-size: 120%;
+        font-size: 180% !important;
     }
 
     p {
@@ -259,8 +278,8 @@ footer {
     }
 
     #logo {
-        margin: 15px 0 20px -25px;
-        background: url(img/RD_mobile.png) no-repeat center;
+        margin: -4px 0 20px -25px;
+        background: url(img/kjo_logo.svg) no-repeat center;
     }
 
     #menu-icon {
@@ -302,8 +321,12 @@ footer {
         }
 
         .one-half {
-            font-size: 65%;
-            margin-bottom: -2px;
+            font-size: 75%;
+            margin-bottom: 0px;
+        }
+
+        .one-half img {
+            margin-top: 40px;
         }
 
         #social {
