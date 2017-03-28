@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
-	 height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve">
-<g id="Layer_1">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve">
+<g id="Layer_1_1_">
 	<path fill="#0097C1" stroke="#000000" stroke-miterlimit="10" d="M57.452,83.995c0,0-48.647,0-49.443,31.898
 		c-0.798,31.899,49.443,18.342,49.443,18.342s26.316-8.772,26.316,20.735c0,29.503-67.786,20.734-67.786,20.734l1.595,16.746
 		c0,0,94.104,2.394,86.129-39.076c-7.975-41.469-47.613-37.482-47.613-37.482s-22.289,15.04-28.147-3.987
 		c-5.859-19.024,28.147-12.759,28.147-12.759L57.452,83.995z"/>
 </g>
 <g id="Layer_2">
-	<path fill="#465A65" stroke="#000000" stroke-miterlimit="10" d="M73.349,87.198v102.078h17.544v-37.481
+	<path fill="#465A65" stroke="#000000" stroke-miterlimit="10" d="M73.349,87.198v102.077h17.544v-37.48
 		c0,0,1.595-20.734,11.164-20.734c9.57,0,10.368,19.935,10.368,19.935v38.281h15.951v-37.481c0,0,0-40.671-27.516-40.671H90.094
 		V87.198H73.349z"/>
 </g>
@@ -20,19 +20,19 @@
 </g>
 <g id="Layer_4">
 	<path fill="#3E7C94" stroke="#000000" stroke-miterlimit="10" d="M146.636,164.566h23.526c0,0,5.582-34.293-23.526-34.293
-		s-23.525,34.293-23.525,34.293h-0.215c0,0,0.859,27.911,47.481,27.911v-13.956h-23.741V164.566z M146.852,138.848
-		c14.554,0,11.762,17.146,11.762,17.146h-23.524C135.089,155.993,132.297,138.848,146.852,138.848z"/>
+		c-29.108,0-23.525,34.293-23.525,34.293h-0.215c0,0,0.859,27.91,47.481,27.91v-13.955h-23.741V164.566z M146.852,138.848
+		c14.554,0,11.762,17.146,11.762,17.146H135.09C135.089,155.993,132.297,138.848,146.852,138.848z"/>
 </g>
 <g id="Layer_5">
-	<path fill="#8ED8F8" stroke="#020202" stroke-miterlimit="10" d="M182.259,90.004v55.016c0,0-23.127-11.966-23.127,19.163
-		c0,31.125,46.253,28.222,46.253,28.222v-102.4H182.259z M182.259,180.906c0,0-13.559-3.994-14.355-16.724
-		c-0.797-12.733,14.355-8.796,14.355-8.796V180.906z"/>
-	<rect x="205.385" y="83.995" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.679"/>
-	<rect x="205.385" y="102.674" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.677"/>
-	<rect x="205.385" y="121.352" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.678"/>
-	<rect x="205.385" y="140.03" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.679"/>
-	<rect x="205.385" y="158.709" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.677"/>
-	<rect x="205.385" y="177.386" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.602" height="18.68"/>
+	<path fill="#8ED8F8" stroke="#020202" stroke-miterlimit="10" d="M182.259,90.004v55.016c0,0-23.127-11.966-23.127,19.164
+		c0,31.125,46.253,28.221,46.253,28.221V90.005L182.259,90.004L182.259,90.004z M182.259,180.906c0,0-13.559-3.994-14.355-16.725
+		c-0.797-12.732,14.355-8.796,14.355-8.796V180.906z"/>
+	<rect x="205.385" y="83.995" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.679"/>
+	<rect x="205.385" y="102.674" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.677"/>
+	<rect x="205.385" y="121.352" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.678"/>
+	<rect x="205.385" y="140.03" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.679"/>
+	<rect x="205.385" y="158.709" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.677"/>
+	<rect x="205.385" y="177.386" fill="#FAF185" stroke="#020202" stroke-miterlimit="10" width="284.603" height="18.681"/>
 	<rect x="211.375" y="106.747" fill="none" width="371.625" height="109.258"/>
 	<text transform="matrix(1 0 0 1 211.3755 183.2754)" font-family="'Noteworthy-Light'" font-size="89.7165">Journal</text>
 </g>
