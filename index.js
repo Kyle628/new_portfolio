@@ -14,10 +14,10 @@ $(document).ready(function(){
     // switch to project view
 
     $("#projects").click(function() {
-        $("#shred_description").html('<a href="shredjournal.html" style="text-decoration: none;"><h3>ShredJournal</h3><p>This was my most recent, and favorite project. Mainly, because I actually use it! Users can keep a journal like they normally would, but connection to surfline&#39s API autofills complicated weather conditions that would normally be very tedious to keep track of. Things like wind and swell direction are important for surfing, but boring to write about when you just caught the wave of your life!</p></a>');
+        $("#shred_description").html('<a href="shredjournal.html" style="text-decoration: none;"><h3>ShredJournal</h3><p>My favorite, and most recent project. Mainly, because I actually use it myself!</p></a>');
         $("#shred_description").addClass("rounded-bottom");
         $("#shred_icon").html('<a href="shredjournal.html"><img src="img/shredjournal.svg"></a>');
-        $("#gorilla_description").html('<a href="gorilla.html" style="text-decoration: none;"><h3><h3>Gorilla Unleashed</h3><p>This is a game I made for fun with my friend Luke. This was my first mobile game, and was a great intro to mobile game development. Making the sprites was challenging, but inspired me to improve my graphic design skills.</p></a>');
+        $("#gorilla_description").html('<a href="gorilla.html" style="text-decoration: none;"><h3><h3>Gorilla Unleashed</h3><p>A game I made for fun with my friend Luke. This was my first mobile game, and was a great intro into mobile game development.</p></a>');
         $("#gorilla_description").css("background-color", "#f9db6d");
         $("#gorilla").css("background-color", "#b4d8c0");
         $("#gorilla_icon").css("background-color", "#b4d8c0");
@@ -45,14 +45,15 @@ $(document).ready(function(){
         $("#gorilla").show();
         $("#gorilla_description").html('<img src="img/UCSC.png">');
         $("#gorilla_description").css("background-color", "#b4d8c0");
-        $("#gorilla_icon").html('<h3 style="margin: 75px 5px 125px 5px;">I received my degree in Computer Science from the University of California Santa Cruz</h3>');
+        $("#gorilla_icon").html('<h3 style="margin: 75px 5px 125px 5px;">I received my degree in Computer Science from the University of California Santa Cruz.</h3>');
         $("#gorilla_icon").css("background-color", "#f9db6d");
         $("#gorilla_icon").addClass("rounded-bottom");
         $("#more-projects").show();
         $("#more-projects").css("background-color", "#015249");
-        $("#view-more").css("background-color", "#b4d8c0");
-        $("#view-source").html('<h3 style="margin: 100px 5px 0px 5px;">When I am not programming...I like to go for a surf, or play some video games!</h3>');
-        $("#view-more").html('<img src="img/vector_surf.svg">');
+        $("#view-more").css("background-color", "#015249");
+        $("#view-source").css("padding-right", "0px");
+        $("#view-source").html('<h3 style="margin: 100px 0px 0px 4px;padding: 0px;">When I am not programming...I like to go for a surf, or play some video games!</h3>');
+        $("#view-more").html('<img src="img/vector_surf.svg" style="margin: 0px 0px -4px 0px;; padding: 0px;">');
         $("#view-more").removeClass("rounded-top");
     });
 
