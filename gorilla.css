@@ -215,3 +215,117 @@ footer {
 #envelope {
     font-size: 500%;
 }
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 150% !important;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    header {
+        position: absolute;
+    }
+
+    #logo {
+        margin: -4px 0 20px -25px;
+        background: url(img/kjo_logo.svg) no-repeat center;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+
+
+    nav ul, navactive ul {
+            display: none;
+            z-index: 1000;
+            position: absolute;
+            padding: 20px;
+            background-color: #6991ac;
+            right: 20px;
+            top: 20px;
+            border: 1px solid #FFF;
+            border-radius: 2px 0 2px 2px;
+            width: 25%;
+        }
+
+        nav:hover ul {
+            display: block;
+        }
+
+        nav li {
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        #banner {
+            padding-top: 90px;
+        }
+
+        .step-one-container {
+            font-size: 300%;
+        }
+
+        #social {
+            font-size: 45%;
+        }
+
+        footer {
+            font-size: 50%;
+        }
+
+        #unity_icon {
+            width: 100%;
+        }
+
+        #unity_description {
+            width: 100%;
+        }
+
+        #unity_description p {
+            margin: 5px;
+        }
+
+        .step-one-container h1 {
+            line-height: 90px;
+        }
+
+        #gorilla_icon {
+            width: 100%;
+        }
+
+        #gorilla_description {
+            width: 100%;
+        }
+
+        #banner {
+            padding-top: 90px;
+        }
+
+        .step-one-container {
+            font-size: 300%;
+        }
+
+        #social {
+            font-size: 55%;
+        }
+
+        footer {
+            font-size: 100%;
+        }
+
+    }
